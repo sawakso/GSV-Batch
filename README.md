@@ -40,15 +40,26 @@
 ├── output/ ← 生成的语音在这里  
 └── （其他文件）  
 
-![单次合成界面](images/single.png)
-![批量合成界面](images/batch.png)
 
 
-### 3. 启动服务
+#### 1. 启动后端
 
-1. **双击 `启动后端.bat`** → 等待约半分钟，黑窗口显示 `Application startup complete` 与127.0.0.0：9880即启动成功（此窗口不要关闭）
-2. **双击 `启动前端.bat`** → 打开 Web 界面进行操作
+双击 `启动后端.bat`，等待黑窗口显示 `Application startup complete`  
+<img src="images/backend.png" alt="后端启动成功" width="600" style="margin:5px;"/>
 
+#### 2. 启动前端
+
+双击 `启动前端.bat`，打开 Web 界面进行操作  
+<img src="images/model.png" alt="切换模型界面" width="600" style="margin:5px;"/>
+
+#### 3. 单次合成（测试用）
+
+<img src="images/single.png" alt="单次合成界面" width="600" style="margin:5px;"/>
+
+#### 4. 批量合成
+
+切换到「批量合成」标签页，设置输入输出文件夹后点击开始生成  
+<img src="images/batch.png" alt="批量合成界面" width="600" style="margin:5px;"/>
 ---
 
 ## 📂 建议的工作目录
